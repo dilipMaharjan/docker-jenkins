@@ -1,0 +1,26 @@
+Started by user [8mha:////4PsQVX3OiPvLU2KMolC8PuTFD1ESIgs8WUnTpJxe12S0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Hello-Jenkins-in-console
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins5295863189192826376.sh
++ echo Hello Jenkins
+Hello Jenkins
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins1506494743217095304.sh
++ date
++ echo Current date is Wed Apr  1 14:20:24 UTC 2020
+Current date is Wed Apr  1 14:20:24 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins4372415351681625502.sh
++ NAME=AASHMA
++ date
++ echo Hello AASHMA. The current date and time is Wed Apr  1 14:20:24 UTC 2020
+Hello AASHMA. The current date and time is Wed Apr  1 14:20:24 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins3615521468496951259.sh
++ NAME=AASHMA
++ date
++ echo Hello AASHMA. The current date and time is Wed Apr  1 14:20:24 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins635273679858350112.sh
++ /tmp/scirpt.sh Dilip Maharjan
+Hello, Dilip Maharjan
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins8050675740586116854.sh
++ /tmp/scirpt.sh Sophy Maharjan
+Hello, Sophy Maharjan
+Finished: SUCCESS

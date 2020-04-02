@@ -1,0 +1,24 @@
+Started by user [8mha:////4PsQVX3OiPvLU2KMolC8PuTFD1ESIgs8WUnTpJxe12S0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Hello-Jenkins-in-console
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins1420868113974581404.sh
++ echo Hello Jenkins
+Hello Jenkins
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins5329059835198446059.sh
++ date
++ echo Current date is Wed Apr  1 14:03:14 UTC 2020
+Current date is Wed Apr  1 14:03:14 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins9150501751629132401.sh
++ NAME=AASHMA
++ date
++ echo Hello AASHMA. The current date and time is Wed Apr  1 14:03:14 UTC 2020
+Hello AASHMA. The current date and time is Wed Apr  1 14:03:14 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins1378610986570386722.sh
++ NAME=AASHMA
++ date
++ echo Hello AASHMA. The current date and time is Wed Apr  1 14:03:14 UTC 2020
+[Hello-Jenkins-in-console] $ /bin/sh -xe /tmp/jenkins4978230254653050144.sh
++ tmp/scirpt.sh Dilip Maharjan
+/tmp/jenkins4978230254653050144.sh: 2: /tmp/jenkins4978230254653050144.sh: tmp/scirpt.sh: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

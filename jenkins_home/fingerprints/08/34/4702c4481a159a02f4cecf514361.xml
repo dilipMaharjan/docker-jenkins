@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-01 21:44:38.42 UTC</timestamp>
+  <md5sum>08344702c4481a159a02f4cecf514361</md5sum>
+  <fileName>Credential id=AWS_SECRET_KEY name=AWS_SECRET_KEY</fileName>
+  <usages>
+    <entry>
+      <string>backup-mysql-to-aws</string>
+      <ranges>4-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,16 @@
+Started at Thu Apr 02 15:02:55 UTC 2020
+Processing backup-mysql-to-aws
+Offering backup-mysql-to-aws to Project Build Discarder
+Processing Hello-Jenkins-in-console
+Offering Hello-Jenkins-in-console to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Thu Apr 02 15:02:55 UTC 2020. 8ms
+Started at Thu Apr 02 16:02:55 UTC 2020
+Processing backup-mysql-to-aws
+Offering backup-mysql-to-aws to Project Build Discarder
+Processing Hello-Jenkins-in-console
+Offering Hello-Jenkins-in-console to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Thu Apr 02 16:02:55 UTC 2020. 2ms
