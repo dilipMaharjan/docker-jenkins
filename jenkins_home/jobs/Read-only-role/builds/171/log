@@ -1,0 +1,7 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Read-only-role
+[Read-only-role] $ /bin/sh -xe /tmp/jenkins5932965118073110028.sh
++ echo FROM ROLE BASED SECURITY
+FROM ROLE BASED SECURITY
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Read-only-role
+[Read-only-role] $ /bin/sh -xe /tmp/jenkins8865357003569191175.sh
++ echo FROM ROLE BASED SECURITY
+FROM ROLE BASED SECURITY
++ and failed
+/tmp/jenkins8865357003569191175.sh: 3: /tmp/jenkins8865357003569191175.sh: and: not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: crazdrmz@gmail.com
+Finished: FAILURE
