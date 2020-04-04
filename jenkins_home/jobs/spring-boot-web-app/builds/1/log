@@ -1,0 +1,23 @@
+Started by user [8mha:////4HqJYUiz0TfhoFnXbs5nzv1qufGk5yQ/5XmProGnyVjhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/spring-boot-web-app
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/dilipMaharjan/spring-boot-web-app.git
+ > git init /var/jenkins_home/workspace/spring-boot-web-app # timeout=10
+Fetching upstream changes from https://github.com/dilipMaharjan/spring-boot-web-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/dilipMaharjan/spring-boot-web-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dilipMaharjan/spring-boot-web-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dilipMaharjan/spring-boot-web-app.git # timeout=10
+Fetching upstream changes from https://github.com/dilipMaharjan/spring-boot-web-app.git
+ > git fetch --tags --progress -- https://github.com/dilipMaharjan/spring-boot-web-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cded875e446315b99f081f2ea39bda598799e797 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cded875e446315b99f081f2ea39bda598799e797 # timeout=10
+Commit message: "to do crud"
+First time build. Skipping changelog.
+Finished: SUCCESS

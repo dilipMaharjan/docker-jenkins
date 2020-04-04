@@ -2,6 +2,7 @@
 <hudson>
   <disabledAdministrativeMonitors>
     <string>jenkins.security.QueueItemAuthenticatorMonitor</string>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
   </disabledAdministrativeMonitors>
   <version>2.229</version>
   <installStateName>RUNNING</installStateName>

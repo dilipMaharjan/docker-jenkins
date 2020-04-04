@@ -1,0 +1,149 @@
+Started by user [8mha:////4HqJYUiz0TfhoFnXbs5nzv1qufGk5yQ/5XmProGnyVjhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/spring-boot-web-app
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dilipMaharjan/spring-boot-web-app.git # timeout=10
+Fetching upstream changes from https://github.com/dilipMaharjan/spring-boot-web-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/dilipMaharjan/spring-boot-web-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cded875e446315b99f081f2ea39bda598799e797 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cded875e446315b99f081f2ea39bda598799e797 # timeout=10
+Commit message: "to do crud"
+ > git rev-list --no-walk cded875e446315b99f081f2ea39bda598799e797 # timeout=10
+[spring-boot-web-app] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn -B -DskipTests clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.dmaharjan:spring-boot-web-app >------------------
+[INFO] Building spring-boot-web-app 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-boot-web-app ---
+[INFO] Deleting /var/jenkins_home/workspace/spring-boot-web-app/target
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-web-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-web-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /var/jenkins_home/workspace/spring-boot-web-app/target/classes
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-web-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/spring-boot-web-app/src/test/resources
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-web-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/spring-boot-web-app/target/test-classes
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-web-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ spring-boot-web-app ---
+[INFO] Building jar: /var/jenkins_home/workspace/spring-boot-web-app/target/spring-boot-web-app-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.5.RELEASE:repackage (repackage) @ spring-boot-web-app ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.646 s
+[INFO] Finished at: 2020-04-03T23:37:54Z
+[INFO] ------------------------------------------------------------------------
+[spring-boot-web-app] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.dmaharjan:spring-boot-web-app >------------------
+[INFO] Building spring-boot-web-app 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-web-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-web-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-web-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/spring-boot-web-app/src/test/resources
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-web-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4MN4efd7rvfHGpWlMvLa4RQlXa/Oqz1EZgG6TOTn3SuDAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-web-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests
+23:37:57.647 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:37:57.657 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:37:57.686 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:37:57.703 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests], using SpringBootContextLoader
+23:37:57.708 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]: class path resource [com/dmaharjan/springbootwebapp/SpringBootWebAppApplicationTests-context.xml] does not exist
+23:37:57.708 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]: class path resource [com/dmaharjan/springbootwebapp/SpringBootWebAppApplicationTestsContext.groovy] does not exist
+23:37:57.708 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:37:57.709 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]: SpringBootWebAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:37:57.742 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]
+23:37:57.805 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/jenkins_home/workspace/spring-boot-web-app/target/classes/com/dmaharjan/springbootwebapp/SpringBootWebAppApplication.class]
+23:37:57.807 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.dmaharjan.springbootwebapp.SpringBootWebAppApplication for test class com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests
+23:37:57.898 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests]: using defaults.
+23:37:57.899 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:37:57.909 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+23:37:57.910 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:37:57.910 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5562c41e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32ee6fee, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d0f2471, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7133da86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3232a28a, org.springframework.test.context.event.EventPublishingTestExecutionListener@73e22a3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47faa49c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@28f2a10f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f736069, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6da21078, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7fee8714]
+23:37:57.915 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@a530d0a testClass = SpringBootWebAppApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1a18644 testClass = SpringBootWebAppApplicationTests, locations = '{}', classes = '{class com.dmaharjan.springbootwebapp.SpringBootWebAppApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7ee955a8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ac13091, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4b14c583, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d119efb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+23:37:57.947 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-04-03 23:37:58.184  INFO 250 --- [           main] c.d.s.SpringBootWebAppApplicationTests   : Starting SpringBootWebAppApplicationTests on bc33fff8d816 with PID 250 (started by jenkins in /var/jenkins_home/workspace/spring-boot-web-app)
+2020-04-03 23:37:58.186  INFO 250 --- [           main] c.d.s.SpringBootWebAppApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-03 23:37:58.231 DEBUG 250 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57c03d88
+2020-04-03 23:37:59.386  INFO 250 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 23:37:59.403 DEBUG 250 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-04-03 23:37:59.486 DEBUG 250 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2020-04-03 23:37:59.559 DEBUG 250 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-04-03 23:37:59.572 DEBUG 250 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-04-03 23:37:59.665  INFO 250 --- [           main] c.d.s.SpringBootWebAppApplicationTests   : Started SpringBootWebAppApplicationTests in 1.709 seconds (JVM running for 2.525)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.245 s - in com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests
+2020-04-03 23:37:59.880 DEBUG 250 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@57c03d88, started on Fri Apr 03 23:37:58 UTC 2020
+2020-04-03 23:37:59.884  INFO 250 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.456 s
+[INFO] Finished at: 2020-04-03T23:38:00Z
+[INFO] ------------------------------------------------------------------------
+[spring-boot-web-app] $ /bin/sh -xe /tmp/jenkins2860481613280289771.sh
++ echo ***************
+***************
++ echo Deploying a jar
+Deploying a jar
++ echo ***************
+***************
++ java -jar --httpPort=8081 /var/jenkins_home/workspace/spring-boot-web-app/target/spring-boot-web-app-0.0.1-SNAPSHOT.jar
+Unrecognized option: --httpPort=8081
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

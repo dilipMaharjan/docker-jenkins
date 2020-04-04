@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/spring-boot-web-app/target/surefire-reports/TEST-com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests.xml</file>
+      <name>com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests</name>
+      <duration>2.108</duration>
+      <time>2.108</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.148</duration>
+          <className>com.dmaharjan.springbootwebapp.SpringBootWebAppApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>2.108</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
